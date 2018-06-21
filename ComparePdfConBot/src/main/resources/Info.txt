@@ -1,0 +1,22 @@
+
+INFO UTILI ALL'UTILIZZO DEL BOT:
+
+1. NON TERMINARE MAI IL BOT USANDO IL TASTO "TERMINATE" DI ECLIPSE:
+   così facendo si lasciano connessioni aperte verso il DB di produzione
+   
+2. Per terminare il bot usare il proprio file flag nella cartella dei template
+   ("ZZ_Raf.txt" oppure "ZZ_Mic.txt"  oppure  "ZZ_Fra.txt")
+   
+3. Assicurarsi che al termine il bot scriva in console "Connecton successfully closed"
+
+============= UTILIZZO =====================
+
+4. Per avviare il bot fare una qualsiasi modifica FITTIZIA sul template docx su cui si vuole lavorare
+   (modifica fittizia = dare uno spazio, rimuoverlo e salvare: in questo modo il file salvato è identico all'originale)
+   
+5. Per modificare il matrix agire direttamente sul file XML presente nella cartella
+   di lavoro (sotto "...\Windward_Stampe_NEW\...")
+   
+    private static String myOfficeName = "Francesco Zingaro";
+	private static String myStopFlag = "ZZ_Fra.txt";
+   
